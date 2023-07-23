@@ -1,0 +1,186 @@
+body {
+    background: url(../images/Background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+.loginContainer {
+    width: 430px;
+    height: 300px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+p.logoTitle {
+    color: #14279b;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+}
+
+p.logoSTitle {
+    color: #3d56b2;
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 0px;
+}
+
+img.logoLogin {
+
+    margin: 0px auto;
+    position: absolute;
+    top: -8px;
+    left: 53px;
+    background-color: white;
+    border-radius: 50%;
+    width: 140px;
+    display: block;
+}
+
+p.logoTXt {
+    font-weight: 600;
+    font-size: 21px;
+    color: #062d75;
+    width: 52px;
+    margin: 0px auto;
+    letter-spacing: 1px;
+}
+
+p.forgetTXt {
+    width: 210px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+form.formForget {
+    text-align: left;
+    border: 1px solid #8e989a;
+    background-color: #e6e6e6;
+    padding: 50px 15px 4px;
+    width: 479px;
+    border-radius: 8px;
+}
+
+.logoForm {
+    border-radius: 5px;
+    /* border: 1px solid #8e989a; */
+    /* background-color: #e6e6e6; */
+    padding: 40px 30px;
+    position: relative;
+}
+
+
+
+p.mailTitle {
+
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 10px;
+}
+
+input#mail:focus-visible,
+input#password:focus-visible {
+    border: none;
+    outline: none;
+}
+
+input#mail,
+input#password {
+    width: 93%;
+    padding: 12px 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+a.forgetTXT {
+    width: 99px;
+    font-size: 15px;
+    display: inline;
+    margin: 9px auto;
+}
+
+p.createNow {
+    display: inline-block;
+    width: 70%;
+}
+
+button.btn-login-submit {
+    background-color: black;
+    font-size: 18px;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #fff;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 7px;
+    margin: 26px auto;
+    text-transform: uppercase;
+    display: block;
+}
+
+button.sendMail {
+    text-transform: none;
+}
+
+button.btn-login-submit {
+    background-color: #09131f;
+    color: white;
+    width: 100%;
+    display: block;
+
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+label.rememberMe {
+    margin-top: 16px;
+    display: block;
+}
+
+p.loginP {
+    font-size: 22px;
+    margin: 9px auto;
+    width: 58px;
+}
+
+form.formSign {
+    text-align: left;
+    border: 1px solid #8e989a;
+    background-color: #e6e6e6;
+    padding: 61px 15px 10px;
+    width: 479px;
+    border-radius: 8px;
+}
+
+img.logoSign {
+    margin: 0px auto;
+    position: absolute;
+    top: -7px;
+    left: 53px;
+    background-color: white;
+    border-radius: 50%;
+    width: 140px;
+    display: block;
+}
+
+form.formLogin {
+    text-align: left;
+    border: 1px solid #8e989a;
+    background-color: #e6e6e6;
+    padding: 50px 15px 15px;
+    width: 479px;
+    border-radius: 8px;
+}
